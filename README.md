@@ -61,7 +61,7 @@ workspace
 │        ├── mmmc_scr.tcl
 │        ├── run_all.scr
 │        ├── syn_scr_fde_vC.tcl  
-└── synthesis/ 
+├── synthesis/ 
 |   ├── reports_vC/          # Synthesis report _ Area / timing / power / gate reports for version C
 |   │    ├──vC_area.rpt
 |   │    ├──vC_check_design.rpt
@@ -75,8 +75,8 @@ workspace
 |   ├── netlist/ 
 |   │    ├──freq_diff_estimator_vC_postsyn.sdf           # SDF delay file
 |   │    └──freq_diff_estimator_vC_postsyn.v             # Post-synthesis netlist
-├── tb/
-│   ├── tb_freq_diff_estimator.v          
+└──  tb/
+    ├── tb_freq_diff_estimator.v          
 
 
 ```

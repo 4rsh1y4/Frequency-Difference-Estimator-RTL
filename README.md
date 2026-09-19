@@ -38,6 +38,11 @@ The **Workspace File structure** is organized as follows:
 ```
 
 workspace
+├── docs/
+│   ├── final_version_block_diagram.png        
+│   ├── first_version_block_diagram.png        
+│   ├── project_report.pdf          
+|
 ├── rtl/
 │   ├── freq_diff_estimator_vA.v          
 │   ├── freq_diff_estimator_vA2.v         
@@ -57,19 +62,21 @@ workspace
 │        ├── run_all.scr
 │        ├── syn_scr_fde_vC.tcl  
 └── synthesis/ 
-    ├── reports_vC/          # Synthesis report _ Area / timing / power / gate reports for version C
-    │    ├──vC_area.rpt
-    │    ├──vC_check_design.rpt
-    │    ├──vC_clocks.rpt
-    │    ├──vC_clocks_pre_synthesis.rpt
-    │    ├──vC_gates.rpt
-    │    ├──vC_power.rpt
-    │    └──vC_timing.rpt
-    ├── logs/
-    │    └──genus_vC_full
-    ├── netlist/ 
-    │    ├──freq_diff_estimator_vC_postsyn.sdf           # SDF delay file
-    │    └──freq_diff_estimator_vC_postsyn.v             # Post-synthesis netlist
+|   ├── reports_vC/          # Synthesis report _ Area / timing / power / gate reports for version C
+|   │    ├──vC_area.rpt
+|   │    ├──vC_check_design.rpt
+|   │    ├──vC_clocks.rpt
+|   │    ├──vC_clocks_pre_synthesis.rpt
+|   │    ├──vC_gates.rpt
+|   │    ├──vC_power.rpt
+|   │    └──vC_timing.rpt
+|   ├── logs/
+|   │    └──genus_vC_full
+|   ├── netlist/ 
+|   │    ├──freq_diff_estimator_vC_postsyn.sdf           # SDF delay file
+|   │    └──freq_diff_estimator_vC_postsyn.v             # Post-synthesis netlist
+├── tb/
+│   ├── tb_freq_diff_estimator.v          
 
 
 ```

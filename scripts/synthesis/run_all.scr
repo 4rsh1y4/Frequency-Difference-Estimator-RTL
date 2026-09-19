@@ -1,0 +1,9 @@
+source ./scripts/buf12_innovus_step1.scr
+source ./scripts/buf12_innovus_step2.scr
+source ./scripts/buf12_innovus_step3.scr
+source ./scripts/buf12_innovus_step4.scr
+source ./scripts/buf12_innovus_step5.scr
+source ./scripts/buf12_innovus_step6.scr
+#source ./scripts/buf12_innovus_step7.scr
+source ./scripts/buf12_innovus_step8.scr
+
